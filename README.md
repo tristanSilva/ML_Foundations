@@ -88,8 +88,8 @@ source venv/bin/activate     # Mac/Linux
 # Install dependencies
 pip install xgboost lightgbm scikit-learn pandas numpy matplotlib seaborn mlflow streamlit shap optuna polars
 
-# Run Day 7 EDA script
-python day7_eda.py
+# Run EDA script
+python eda.py
 ```
 
 ---
