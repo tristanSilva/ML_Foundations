@@ -99,9 +99,9 @@ python eda.py
 ```
 ml-foundations/
 │
-├── day7_eda.py          — Exploratory data analysis, first look at the dataset
-├── README.md            — This file
-└── requirements.txt     — All dependencies (coming soon)
+├── eda.py                 — Exploratory data analysis, first look at the dataset
+├── README.md              — This file
+└── requirements.txt       — All dependencies (coming soon)
 ```
 
 This structure grows week by week. By the end of Phase 1 (8 weeks), this repo will contain a fully connected ML system: data pipeline → model training → experiment tracking → explainability dashboard → API → Docker deployment.
