@@ -108,17 +108,6 @@ This structure grows week by week. By the end of Phase 1 (8 weeks), this repo wi
 
 ---
 
-## Roadmap
-
-- [x] Week 1 — ML fundamentals (concepts)
-- [x] Week 2 — EDA and environment setup
-- [ ] Week 3 — XGBoost and LightGBM training
-- [ ] Week 4 — Evaluation metrics and scikit-learn Pipelines
-- [ ] Week 5 — Optuna tuning and Polars data pipeline
-- [ ] Week 6 — SHAP explainability
-- [ ] Week 7 — Streamlit dashboard and MLflow tracking
-- [ ] Week 8 — Capstone: full end-to-end ML system in Docker
-
 ---
 
 ## Background
@@ -126,7 +115,6 @@ This structure grows week by week. By the end of Phase 1 (8 weeks), this repo wi
 Currently I am working as a Business Process Automation Developer in the Philippines, transitioning into AI Automation Engineering. 
 My background is in Blue Prism RPA, NestJS, FastAPI, and React Native — mostly enterprise and LGU-facing systems.
 
-This ML curriculum is one part of a larger effort to build AI-powered tools for Philippine government and business clients — starting with the fundamentals, done properly.
 
 ---
 
