@@ -14,6 +14,14 @@ columns = [
     "outcome"
 ]
 
+suspicious_columns = [
+   "glucose",
+   "blood_pressure",
+   "skin_thickness",
+   "insulin",
+   "bmi" 
+]
+
 df = pd.read_csv(url, names=columns)
 
 print("=== SHAPE (rows, columns) ===")
@@ -33,3 +41,10 @@ print(df.isnull().sum())
 
 print("\n=== LABEL DISTRIBUTION ===")
 print(df["outcome"].value_counts())
+
+print("\n === SUSPICIOUS ZEROS (hidden missing values) ===")
+for col in suspicious_columns:
+    zero_count = (df[col] == 0).sum()
+    percentage = (zero_count / len(df)) * 100
+    print(f"{col:<20} zeros: {zero_count} ({percentage:.1f}%)")
+
